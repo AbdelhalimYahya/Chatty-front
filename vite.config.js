@@ -6,6 +6,6 @@ import react from '@vitejs/plugin-react'
 export default defineConfig({
   plugins: [react(), tailwindcss()],
   build: {
-    outDir: '../frontend/dist'  // Output folder
+    outDir: 'dist'  // Output folder
   }
 })
